@@ -1,0 +1,132 @@
+/* style.css */
+
+/* Gaya untuk elemen <body> */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk elemen <main> */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk elemen <h1> */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Gaya untuk label */
+label {
+    font-weight: bold;
+}
+
+/* Gaya untuk tombol submit */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* Gaya untuk elemen body pada halaman hasil diagnosa */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk wadah hasil diagnosa */
+.result-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk bagian hasil diagnosa */
+.result-container h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Gaya untuk elemen hasil diagnosa */
+.result-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Warna latar belakang kontainer */
+}
+
+/* Gaya untuk teks dalam hasil diagnosa */
+.result-container h1 {
+    text-align: center;
+    color: #F0FFFF;
+    margin-top: 10px;
+    /* Latar belakang untuk h1 */
+    background-color: #45a049; /* Ubah sesuai dengan warna yang diinginkan */
+    padding: 8px; /* Atur ruang antara teks dan latar belakang */
+    border-radius: 5px; /* Bulatkan sudut */
+    font-weight: bold; /* Membuat teks menjadi tebal */
+}
+
+.result-container h4 {
+    text-align: justify;
+    color: #333;
+}
+
+.result-container p {
+    text-align: justify;
+    margin: 20px;
+    color: #333;
+}
+
+.result-container ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.result-container li {
+    margin-bottom: 10px;
+}
+
+.result-container a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+.result-container a:hover {
+    text-decoration: underline;
+    color: #0e5b96;
+}
+
+/* Gaya untuk informasi hak cipta */
+.result-container footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 14px;
+}
